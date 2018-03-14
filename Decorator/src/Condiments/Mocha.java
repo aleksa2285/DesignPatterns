@@ -1,11 +1,11 @@
 package Condiments;
 
-import Beverages.BaseBeverage;
+import Beverages.Beverage;
 
 public class Mocha extends CondimentDecorator {
-    BaseBeverage beverage;
+    private Beverage beverage;
 
-    public Mocha(BaseBeverage beverage) {
+    public Mocha(Beverage beverage) {
         this.beverage = beverage;
     }
     @Override

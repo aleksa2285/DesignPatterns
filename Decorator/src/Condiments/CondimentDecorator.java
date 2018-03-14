@@ -1,7 +1,7 @@
 package Condiments;
 
-import Beverages.BaseBeverage;
+import Beverages.Beverage;
 
-public abstract class CondimentDecorator extends BaseBeverage {
+public abstract class CondimentDecorator extends Beverage {
     public abstract String getDescription();
 }

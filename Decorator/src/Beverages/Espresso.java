@@ -1,6 +1,6 @@
 package Beverages;
 
-public class Espresso extends BaseBeverage {
+public class Espresso extends Beverage {
 
     public Espresso() { description = "Espresso"; }
     @Override

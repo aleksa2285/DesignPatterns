@@ -1,12 +1,12 @@
 package Condiments;
 
-import Beverages.BaseBeverage;
+import Beverages.Beverage;
 
 public class Whip extends CondimentDecorator {
 
-    BaseBeverage beverage;
+    private Beverage beverage;
 
-    public Whip(BaseBeverage beverage) {
+    public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
     @Override
@@ -15,6 +15,6 @@ public class Whip extends CondimentDecorator {
     }
     @Override
     public String getDescription() {
-        return beverage.description + ", Whip";
+        return beverage.getDescription()+ ", Whip";
     }
 }

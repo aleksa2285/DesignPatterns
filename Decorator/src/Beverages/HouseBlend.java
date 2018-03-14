@@ -1,6 +1,6 @@
 package Beverages;
 
-public class HouseBlend extends BaseBeverage {
+public class HouseBlend extends Beverage {
 
     public HouseBlend() { description = "House blend";}
     @Override

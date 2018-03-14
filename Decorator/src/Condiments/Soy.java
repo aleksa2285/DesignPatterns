@@ -1,11 +1,12 @@
 package Condiments;
 
-import Beverages.BaseBeverage;
+import Beverages.Beverage;
 
 public class Soy extends CondimentDecorator {
-    BaseBeverage beverage;
 
-    public Soy(BaseBeverage beverage) {
+    private Beverage beverage;
+
+    public Soy(Beverage beverage) {
         this.beverage = beverage;
     }
     @Override
